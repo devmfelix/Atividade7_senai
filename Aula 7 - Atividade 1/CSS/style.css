@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(185, 147, 65);   
+}
+
+header img{
+    width: 150px;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ nav ul li{
+    margin: 10px;
+}
+
+nav ul li a{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transform: skew(-10deg);
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.navigation__social{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    column-gap: 30px;
+}
+
+.navigation__social svg{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.navigation__social svg:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.macaco{
+    
+}
+
+.banner{
+   background-image: url("../IMG/vista-lateral-mulher-segurando-macaco.jpg");
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.formularios{
+    display: flex;
+}
+.banner img{
+    width: 45vw;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sobre h1{
+    font-weight: 700;
+    color: white;
+}
+
+.macacooos{
+    color: rgb(255, 255, 255);
+    margin: 40px;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: rgb(185, 147, 65);
+    }
+    p {
+    margin: 0 0 5px;
+    }
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(185, 147, 65);
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(185, 147, 65);
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: rgb(185, 147, 65);
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background: #2371a0;
+    } 
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+        background-color: rgb(185, 147, 65);
+    }
+
+    .foot1 p{
+        color: white;
+    }
+
+    .foot1 ul{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .foot1 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .foot2 p{
+        color: white;
+        margin-left: 120px;
+    }
+
+    .foot2 input{
+        border-radius: 10px;
+    }
+
+    .foot2 button{
+        background-color: rgb(185, 147, 65);
+        border: solid 1px white;
+        border-radius: 10px;
+    }
+
+    .foot2 button:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .foot3 p{
+        color: white;
+    }
+
+    .foot3 span{
+        color: white;
+    }
